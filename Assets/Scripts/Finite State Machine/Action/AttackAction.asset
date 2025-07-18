@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1eaddda9cdc56aa43bbffa8d8b8ace5f, type: 3}
+  m_Name: AttackAction
+  m_EditorClassIdentifier: 
+  meleeAttacks: {fileID: 11400000, guid: 2f32ddadc9816554e91d295e5520b0bb, type: 2}
+  spellAttacks: {fileID: 11400000, guid: 9e7012b824a1f6d4aa55e4f66b6d3e08, type: 2}
+  otherAttacks: {fileID: 11400000, guid: 622464df143de194988542a63c3dd771, type: 2}

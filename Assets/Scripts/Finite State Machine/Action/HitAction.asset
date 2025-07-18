@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff3b88625a717b944b4d83c08b5c6025, type: 3}
+  m_Name: HitAction
+  m_EditorClassIdentifier: 
+  SearchState: {fileID: 11400000, guid: 9ac6405455a3cec49b32d4e50e780b78, type: 2}

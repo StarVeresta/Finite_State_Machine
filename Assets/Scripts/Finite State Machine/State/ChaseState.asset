@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abe63da90cf0ad14f962d4edb3e0131e, type: 3}
+  m_Name: ChaseState
+  m_EditorClassIdentifier: 
+  stateName: Chase
+  _isStateActive: 0
+  _animationName: Chasing
+  actions:
+  - {fileID: 11400000, guid: 5206803a254646c4092c54ce0431cff3, type: 2}
+  transitions:
+  - decision: {fileID: 11400000, guid: 20b89d830d2e10f4bbc770dafb05e087, type: 2}
+    trueState: {fileID: 11400000, guid: 0e520c55893b7134ba12b1f3d5b2ebf2, type: 2}
+    falseState: {fileID: 11400000, guid: 9ac6405455a3cec49b32d4e50e780b78, type: 2}
+  - decision: {fileID: 11400000, guid: 313ad884f8855fa4399e7dd2b642d569, type: 2}
+    trueState: {fileID: 11400000, guid: e5ce679ceccc8894d948aa7d9639be81, type: 2}
+    falseState: {fileID: 11400000, guid: 0e520c55893b7134ba12b1f3d5b2ebf2, type: 2}
+  gizmoColor: {r: 1, g: 0, b: 0, a: 1}
+  isTransitionable: 1
