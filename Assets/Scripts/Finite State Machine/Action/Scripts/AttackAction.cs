@@ -3,8 +3,6 @@ using UnityEngine;
 [CreateAssetMenu(menuName = "Scriptable Objects/AI/Actions/Attack")]
 public class AttackAction : Action
 {
-
-
     public override void act(StateMachineEngine controller)
     {
         Attack(controller);
